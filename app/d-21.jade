@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Stock Graph
+    link(rel='stylesheet', href='./css/d-21.css')
+  body
+    #controls
+      h1 Stock Graph
+      input#symbol(type='text')
+      button#add Add
+    #graph
+
+    script(src='./js/vendor/jquery-2.1.0.js')
+    script(src="http://www.amcharts.com/lib/3/amcharts.js")
+    script(src="http://www.amcharts.com/lib/3/serial.js")
+    script(src="http://www.amcharts.com/lib/3/themes/chalk.js")
+    script(src='./js/source/d-21.js')
